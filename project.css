@@ -1,0 +1,32 @@
+   .blog-box {
+    padding-bottom: 60px;
+   }  
+   .blog-box__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 75px;
+    text-align: center;
+    }
+    .blog-box__item {
+        max-width: calc(33% - 20px);
+        border: 1px solid black;
+    }
+   .blog-box__image {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+    .blog-box__image img{
+    display: flex;
+    width: 100%;
+    max-width: 90%;
+    }
+    
+    
+    .blog-box__heading{
+        text-align: center;
+        color: blue;
+        text-decoration: underline;
+    }
